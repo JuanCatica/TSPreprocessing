@@ -97,7 +97,7 @@ class NLagDiff(BaseEstimator,TransformerMixin):
         |_____|____|____|             |_____|____|____|______________|________________|
 
     Desarrollador:
-        Ing. Juan Camilo Cática Buendía
+        Juan Camilo Cática Buendía
     """
     def __init__(self, columns = list(), lags = 1, col_group = None, dropna = False, diff = True, copy = True):
 
@@ -251,7 +251,7 @@ class TimeSeriesKFold:
                      |_____|____|____|            |_____|____|____|              |_____|____|____|
 
     Desarrollador:
-        Ing. Juan Camilo Cática Buendía
+        Juan Camilo Cática Buendía
     """
     
     def __init__(self, y, init, final, win_size, method = "forward_chaining"):
